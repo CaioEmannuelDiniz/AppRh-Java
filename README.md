@@ -28,20 +28,26 @@ O Gerenciador de RH é uma API desenvolvida em Java com Spring Boot, que facilit
 - Instale o MySQL e crie um banco de dados para a aplicação.
 
 ### Clone o Repositório:
-```bash
-git clone https://github.com/CaioEmannuelDiniz/AppRh-Java.git
+  
+  ```bash
+  git clone https://github.com/CaioEmannuelDiniz/AppRh-Java.git
+  ```
 
 ### Crie um arquivo .env
 Na pasta resources do projeto, crie um arquivo chamado .env com as seguintes informações:
-```bash
-DB_URL=jdbc:mysql://localhost:3306/seu_banco
-DB_USERNAME=seu_usuario
-DB_PASSWORD=sua_senha
+  
+   ```bash
+   DB_URL=jdbc:mysql://localhost:3306/seu_banco
+   DB_USERNAME=seu_usuario
+   DB_PASSWORD=sua_senha
+   ```
 
 ## Compile e Execute:
-```bash
-cd gerenciador-rh
-mvn spring-boot:run
+
+   ```bash
+   cd AppRh-Java
+   mvn spring-boot:run
+   ```
 
 ## Contribuição
 
@@ -64,5 +70,5 @@ Se você tiver dúvidas ou sugestões, entre em contato:
 - **LinkedIn**: [Caio Emannuel](https://www.linkedin.com/in/caio-emannuel-diniz/)
 
 ## Agradecimento
-Agradeço por conferir o `Gerenciador de Biblioteca!` Espero que você encontre este projeto útil e inspirador. Boa leitura! 📚
+Agradeço por conferir o `Gerenciador de RH!` Espero que você encontre este projeto útil e inspirador. Boa leitura! 📚
 
